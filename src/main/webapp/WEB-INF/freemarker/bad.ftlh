@@ -16,44 +16,22 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:500');
     </style>
-    <title>::Calculation::</title>
+    <title>::BAD NUMBER::</title>
 </head>
 <body background="https://images.pexels.com/photos/984540/pexels-photo-984540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
 <div class="container">
     <div class="card border-0 shadow my-5">
         <div class="card-body p-5 bg-dark text-light">
-            <h3 class="text-light"><center>
-    <#if n?ends_with("1")>
-        The ${n}st
-    <#elseif n?ends_with("2")>
-        The ${n}nd
-    <#elseif n?ends_with("3")>
-        The ${n}rd
-    <#else>
-        The ${n}th
-    </#if>
-    element is ${result}
+            <h1 class="text-light"><center>
+                 VERY WRONG NUMBER
                 </center>
-</h3>
-            <table id="statistics" class="table table-bordered table-responsive-md table-dark shadow-lg" style="width:100%">
-    <tr>
-        <th>Number</th>
-        <th>Value of all numbers</th>
-    </tr>
-    <#list resultList>
-        <#items as number>
-            <tr>
-                <td>${number_index+1}</td>
-                <td>${number}</td>
-            </tr>
-        </#items>
-    </#list>
-</table>
-            <br>
-            <center>
+                <br>
+                <br>
+                <center>
                 <a class="nav-link" href="http://localhost:8080/fibooccino"><button type="button" class="btn btn-primary btn-lg">
-                        Back and calculate again</button></a>
-            </center>
+                        Back and calculate again</button></a></center>
+            </h1>
+
         </div>
     </div>
 </div>

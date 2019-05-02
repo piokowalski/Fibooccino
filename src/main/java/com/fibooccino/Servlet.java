@@ -47,12 +47,11 @@ public class Servlet extends HttpServlet {
                 model.put("n", String.valueOf(number));
                 model.put("resultList", resultList);
                 showResult(resp, model);
+            } else {
+                Template template = tp.getTemplate(getServletContext(),"bad.ftlh");
+                template.dump(resp.getWriter());
             }
-            else{
-                resp.getWriter().println("No zero's, no negative numbers");
-            }
-        }
-        else{
+        } else {
             resp.getWriter().println("Put correct number here");
         }
     }

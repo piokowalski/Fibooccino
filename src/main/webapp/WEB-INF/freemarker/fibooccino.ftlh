@@ -27,17 +27,21 @@
             <div class="card border-0 shadow my-5">
                 <div class="card-body p-5 bg-dark">
                     <h1 class="text-light">
-                        <center>Fibooccino calculator</center>
-                    </h1> <br><br><br>
+                        <center>FIBOOCCINO</center>
+                    </h1>
+                    <h2 class="text-light">
+                        <center>calculator</center>
+                    </h2><br><br><br>
 
                         <form action="fibonacci" method="post">
 
                            <center>
-                                <label for="name" class="text-light">Which number do You want to calculate?</label>
-                                </center> <br><br>
+                                <label for="name" class="text-light">Which number of sequence?</label>
+                                </center> <br>
                             <div style="height: 300px" class="card-body p-3">
                                 <center>
                             <input id="number" type="number" name="number" required/></br>
+                                    <br>
                                     <br>
                                     <br>
                                     <br>
