@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@WebServlet
+@WebServlet("/fibooccino")
 public class Servlet extends HttpServlet {
 
     @Inject
@@ -49,11 +49,11 @@ public class Servlet extends HttpServlet {
                 showResult(resp, model);
             }
             else{
-                resp.getWriter().println("Number can't be negative or 0");
+                resp.getWriter().println("No zero's, no negative numbers");
             }
         }
         else{
-            resp.getWriter().println("Input valid number");
+            resp.getWriter().println("Put correct number here");
         }
     }
     private boolean integerCheck(String stringNumber){
@@ -69,7 +69,7 @@ public class Servlet extends HttpServlet {
 
     private void showResult(HttpServletResponse resp, Map<String, Object> model)
             throws IOException { Template template = tp.getTemplate(getServletContext(),
-            "fibonacci.ftlh");
+            "fibooccino.ftlh");
 
 
         try {
