@@ -25,7 +25,7 @@ public class Servlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
 
-        Template template = tp.getTemplate(getServletContext(),"table.ftlh");
+        Template template = tp.getTemplate(getServletContext(),"fibooccino.ftlh");
         template.dump(resp.getWriter());
 
     }
@@ -69,7 +69,7 @@ public class Servlet extends HttpServlet {
 
     private void showResult(HttpServletResponse resp, Map<String, Object> model)
             throws IOException { Template template = tp.getTemplate(getServletContext(),
-            "fibooccino.ftlh");
+            "table.ftlh");
 
 
         try {
