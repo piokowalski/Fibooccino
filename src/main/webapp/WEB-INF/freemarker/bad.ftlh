@@ -19,7 +19,7 @@
     <title>::BAD NUMBER::</title>
 </head>
 <body background="https://images.pexels.com/photos/984540/pexels-photo-984540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-<div class="container">
+<div style="height: 250px" class="container">
     <div class="card border-0 shadow my-5">
         <div class="card-body p-5 bg-dark text-light">
             <h1 class="text-light"><center>
@@ -28,6 +28,9 @@
                     <br>
                     <h3 class="text-danger">Focus, more than zero!</h3>
                 </center>
+                <br>
+                <br>
+                <br>
                 <br>
                 <br>
                 <center>

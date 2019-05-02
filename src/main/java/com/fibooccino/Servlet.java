@@ -51,8 +51,6 @@ public class Servlet extends HttpServlet {
                 Template template = tp.getTemplate(getServletContext(),"bad.ftlh");
                 template.dump(resp.getWriter());
             }
-        } else {
-            resp.getWriter().println("Put correct number here");
         }
     }
     private boolean integerCheck(String stringNumber){

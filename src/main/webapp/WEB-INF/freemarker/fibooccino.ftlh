@@ -31,36 +31,35 @@
                     </h1>
                     <h2 class="text-light">
                         <center>calculator</center>
-                    </h2><br><br><br>
+                    </h2>
+                    <br><br><br>
 
-                        <form action="fibonacci" method="post">
+                    <form action="fibonacci" method="post">
 
-                           <center>
-                                <label for="name" class="text-light">Which number of sequence?</label>
-                                </center>
-                            <div style="height: 250px" class="card-body p-3">
+                        <center>
+                            <label for="name" class="text-light">Which number of sequence?</label>
+                        </center>
+                        <div style="height: 250px" class="card-body p-3">
+                            <center>
+                                <input id="number" type="number" name="number" required/></br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
                                 <center>
-                            <input id="number" type="number" name="number" required/></br>
-                                    <br>
-                                    <br>
-                                    <br>
-
-                                    <center>
                                     <button type="submit" class="btn btn-primary btn-lg" id="find">
                                         Calculate !
                                     </button>
                                 </center>
-                                </center>
-                            </div>
+                            </center>
+                        </div>
 
 
-
-
-
-                        </form>
-                    </div>
+                    </form>
                 </div>
             </div>
+        </div>
         </div>
     </main>
 

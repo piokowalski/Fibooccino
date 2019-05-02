@@ -32,14 +32,15 @@
     <#else>
         The ${n}th
     </#if>
-    element is ${result}
+    number in the sequence is ${result}
                 </center>
 </h3>
             <br>
+            <center>
             <table id="statistics" class="table table-bordered table-responsive-md table-dark shadow-lg" style="width:100%">
     <tr>
-        <th>Number</th>
-        <th>Value of all numbers</th>
+        <th>#</th>
+        <th>Value</th>
     </tr>
     <#list resultList>
         <#items as number>
@@ -50,6 +51,7 @@
         </#items>
     </#list>
 </table>
+            </center>
             <br>
             <center>
                 <a class="nav-link" href="http://localhost:8080/fibooccino"><button type="button" class="btn btn-primary btn-lg">
