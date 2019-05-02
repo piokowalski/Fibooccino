@@ -35,6 +35,7 @@
     element is ${result}
                 </center>
 </h3>
+            <br>
             <table id="statistics" class="table table-bordered table-responsive-md table-dark shadow-lg" style="width:100%">
     <tr>
         <th>Number</th>

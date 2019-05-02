@@ -24,6 +24,9 @@
         <div class="card-body p-5 bg-dark text-light">
             <h1 class="text-light"><center>
                  VERY WRONG NUMBER
+                    <br>
+                    <br>
+                    <h3 class="text-danger">Focus, more than zero!</h3>
                 </center>
                 <br>
                 <br>

@@ -37,15 +37,14 @@
 
                            <center>
                                 <label for="name" class="text-light">Which number of sequence?</label>
-                                </center> <br>
-                            <div style="height: 300px" class="card-body p-3">
+                                </center>
+                            <div style="height: 250px" class="card-body p-3">
                                 <center>
                             <input id="number" type="number" name="number" required/></br>
                                     <br>
                                     <br>
                                     <br>
-                                    <br>
-                                    <br>
+
                                     <center>
                                     <button type="submit" class="btn btn-primary btn-lg" id="find">
                                         Calculate !
