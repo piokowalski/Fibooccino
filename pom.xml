@@ -51,7 +51,7 @@
         <artifactId>wildfly-maven-plugin</artifactId>
         <version>1.2.1.Final</version>
         <configuration>
-          <name>homework.war</name>
+          <name>fibooccino.war</name>
         </configuration>
         <executions>
           <execution>
