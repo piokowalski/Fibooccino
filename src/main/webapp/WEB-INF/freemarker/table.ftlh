@@ -22,7 +22,8 @@
 <div class="container">
     <div class="card border-0 shadow my-5">
         <div class="card-body p-5 bg-dark text-light">
-            <h3 class="text-light"><center>
+            <h3 class="text-light">
+                <center>
     <#if n?ends_with("1")>
         The ${n}st
     <#elseif n?ends_with("2")>
@@ -34,6 +35,7 @@
     </#if>
     number in the sequence is ${result}
                 </center>
+
 </h3>
             <br>
             <center>

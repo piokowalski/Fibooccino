@@ -84,6 +84,7 @@ public class Servlet extends HttpServlet {
         Long temp;
         Long a = 0L;
         Long b = 1L;
+
         for (int i = 1; i < number; i++) {
             temp = a;
             a = b;
